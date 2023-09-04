@@ -100,8 +100,59 @@ Kotlin的速成。
 
     ```kotlin
     fun main(){
+        //第一种创建方式 使用函数arrayOf来进行创建
+        //[1, 2, 3]
+        val a = arrayOf(1, 2, 3)
+        //第二种创建方式 使用工厂函数
+        //[0, 2, 4]
+        val b = Array(3, {i -> (i*2)})
+    }
+    ```
+
+  - 数组的操作
+  
+    ```kotlin
+    fun main(){
+        //读取数组的内容 []对应调用成员函数的get()和set()方法
+        println(a[0])
+        println(a[1])
+        //使用get() set() 一样可以实现
+        println(a.get(0))
+        a.set(0, 2)
+        println(a.get(0)) //输出为2
+    }
+    ```
+  
+    注意：与Java不同的是，Kotlin中的数组是不型变的(invariant)
+  
+    除了Array类，还有其他比如IntArray，ShortArray等，表示各种的数组，省去了装箱的操作，效率更高，其用法与ArrayOf一样：
+  
+    ```kotlin
+    val x: IntArray = intArrayOf(i, 2, 3)
+    x[0] = x[1] + x[2]
+    ```
+
+- list
+
+  - list的创建
+
+    ```kotlin
+    fun main(){
+        //默认出创建空的list
+        val list = listOf<Int>()
+        //判断是否为空
+        println(list.isEmpty())
+    }
+    ```
+
+    注意这种创建的list是不可变的
+
+    可变list的创建：
+
+    ```kotlin
+    fun main(){
         
     }
     ```
 
-**写到这先run去睡觉了，明天再写**
+**写到这又去看数学建模去了。。**
