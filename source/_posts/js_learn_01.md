@@ -40,7 +40,6 @@ tags:
       </script>
   </body>
   </html>
-  
 - 第二种方式：在与html文件同级目录下写js脚本，然后进行引用
 
   html文件：
