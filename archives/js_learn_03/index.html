@@ -18,23 +18,28 @@
 
 <script class="next-config" data-name="main" type="application/json">{"hostname":"xiaoheiit6.github.io","root":"/","images":"/images","scheme":"Mist","darkmode":false,"version":"8.18.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":{"enable":false,"style":null},"fold":{"enable":false,"height":500},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":false,"async":false,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"}}</script><script src="/js/config.js"></script>
 
-    <meta property="og:type" content="website">
-<meta property="og:title" content="小黑z的Blog">
-<meta property="og:url" content="https://xiaoheiit6.github.io/categories/Kotlin/index.html">
+    <meta name="description" content="第三次前端JS的学习记录。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="JavaScript学习——JavaScript(交互)">
+<meta property="og:url" content="https://xiaoheiit6.github.io/archives/js_learn_03/index.html">
 <meta property="og:site_name" content="小黑z的Blog">
+<meta property="og:description" content="第三次前端JS的学习记录。">
 <meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2023-09-18T18:00:00.000Z">
+<meta property="article:modified_time" content="2023-09-18T10:20:15.000Z">
 <meta property="article:author" content="XiaoHei">
+<meta property="article:tag" content="前端">
 <meta name="twitter:card" content="summary">
 
 
-<link rel="canonical" href="https://xiaoheiit6.github.io/categories/Kotlin/">
+<link rel="canonical" href="https://xiaoheiit6.github.io/archives/js_learn_03/">
 
 
 
-<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":false,"lang":"zh-CN","comments":"","permalink":"","path":"categories/Kotlin/index.html","title":""}</script>
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"https://xiaoheiit6.github.io/archives/js_learn_03/","path":"archives/js_learn_03/","title":"JavaScript学习——JavaScript(交互)"}</script>
 
 <script class="next-config" data-name="calendar" type="application/json">""</script>
-<title>分类: Kotlin | 小黑z的Blog</title>
+<title>JavaScript学习——JavaScript(交互) | 小黑z的Blog</title>
   
 
 
@@ -120,7 +125,7 @@
   
   <aside class="sidebar">
 
-    <div class="sidebar-inner sidebar-overview-active">
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
       <ul class="sidebar-nav">
         <li class="sidebar-nav-toc">
           文章目录
@@ -133,6 +138,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%BA%A4%E4%BA%92%EF%BC%9Aalert%E3%80%81prompt%E5%92%8Cconfirm"><span class="nav-number">1.</span> <span class="nav-text">交互：alert、prompt和confirm</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#alert"><span class="nav-number">1.1.</span> <span class="nav-text">alert</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#prompt"><span class="nav-number">1.2.</span> <span class="nav-text">prompt</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#confirm"><span class="nav-number">1.3.</span> <span class="nav-text">confirm</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%80%BB%E7%BB%93"><span class="nav-number">2.</span> <span class="nav-text">总结</span></a></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -204,50 +210,170 @@
 
     </div>
 
-    <div class="main-inner category posts-collapse">
+    <div class="main-inner post posts-expand">
 
 
   
+
+
+<div class="post-block">
   
   
-  <div class="post-block">
-    <div class="post-content">
-      <div class="collection-title">
-        <h1 class="collection-header">Kotlin
-          <small>分类</small>
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://xiaoheiit6.github.io/archives/js_learn_03/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/logo.jpg">
+      <meta itemprop="name" content="XiaoHei">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="小黑z的Blog">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="JavaScript学习——JavaScript(交互) | 小黑z的Blog">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          JavaScript学习——JavaScript(交互)
         </h1>
-      </div>
 
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
       
-    <div class="collection-year">
-      <span class="collection-header">2023</span>
+
+      <time title="创建时间：2023-09-18 18:00:00 / 修改时间：10:20:15" itemprop="dateCreated datePublished" datetime="2023-09-18T18:00:00+00:00">2023-09-18</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/JavaScript/" itemprop="url" rel="index"><span itemprop="name">JavaScript</span></a>
+        </span>
+    </span>
+
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody"><p>第三次前端JS的学习记录。</p>
+<span id="more"></span>
+
+<h2 id="交互：alert、prompt和confirm"><a href="#交互：alert、prompt和confirm" class="headerlink" title="交互：alert、prompt和confirm"></a>交互：alert、prompt和confirm</h2><p>我们使用浏览器作为演示环境，看几个与用户交互的函数：alert、prompt和confirm</p>
+<h3 id="alert"><a href="#alert" class="headerlink" title="alert"></a>alert</h3><p>这个函数将会显示一条信息，等待用户按下“OK”。</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="title function_">alert</span>(<span class="string">&quot;hello&quot;</span>);</span><br></pre></td></tr></table></figure>
+
+<p>弹出的这个带有信息的小窗口叫做<strong>模态窗（modal window）</strong>。“modal”意味着用户不能点击页面其他部分进行交互，必须处理这个模态窗。</p>
+<h3 id="prompt"><a href="#prompt" class="headerlink" title="prompt"></a>prompt</h3><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">result = <span class="title function_">prompt</span>(title,[<span class="keyword">default</span>]);</span><br></pre></td></tr></table></figure>
+
+<p>浏览器会显示一个带有文本消息的模态窗口，还有 input 框和确定&#x2F;取消按钮。</p>
+<ul>
+<li><p><code>title</code></p>
+<p>显示给用户的文本</p>
+</li>
+<li><p><code>default</code></p>
+<p><strong>可选</strong>的第二个参数，指定 input 框的初始值。</p>
+</li>
+</ul>
+<p>访问者可以在提示输入栏中输入一些内容，然后按“确定”键。然后我们在 <code>result</code> 中获取该文本。或者他们可以按取消键或按 Esc 键取消输入，然后我们得到 <code>null</code> 作为 <code>result</code>。</p>
+<p><code>prompt</code> 将返回用户在 <code>input</code> 框内输入的文本，如果用户取消了输入，则返回 <code>null</code>。</p>
+<p>举个例子：</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">let</span> age = <span class="title function_">prompt</span>(<span class="string">&#x27;How old are you?&#x27;</span>, <span class="number">100</span>);</span><br><span class="line"></span><br><span class="line"><span class="title function_">alert</span>(<span class="string">`You are <span class="subst">$&#123;age&#125;</span> years old!`</span>); <span class="comment">// You are 100 years old!</span></span><br></pre></td></tr></table></figure>
+
+<p><strong>注意</strong>：IE浏览器会默认给第二个参数传值，如果我们不提供默认输入值，IE会把undefined插入到prompt。</p>
+<p>我们可以将第二个参数值为空：</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">let</span> test = <span class="title function_">prompt</span>(<span class="string">&quot;Title&quot;</span>,<span class="string">&quot;&quot;</span>);</span><br></pre></td></tr></table></figure>
+
+<h3 id="confirm"><a href="#confirm" class="headerlink" title="confirm"></a>confirm</h3><p>语法：</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">result = <span class="title function_">confirm</span>(question);</span><br></pre></td></tr></table></figure>
+
+<p><code>confirm</code>函数显示一个带有<code>question</code>以及带有确定和取消按钮的模态窗口。</p>
+<p>点击确定返回值为<code>true</code>点击取消则返回<code>false</code>。</p>
+<p>例如：</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">let</span> isBoss = <span class="title function_">confirm</span>(<span class="string">&quot;Are you the boss?&quot;</span>);</span><br><span class="line"></span><br><span class="line"><span class="title function_">alert</span>( isBoss ); <span class="comment">// 如果“确定”按钮被按下，则显示 true</span></span><br></pre></td></tr></table></figure>
+
+<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><ul>
+<li><p><code>alert</code></p>
+<p>显示信息。</p>
+</li>
+<li><p><code>prompt</code></p>
+<p>显示信息要求用户输入文本。点击确定返回文本，点击取消或按下 Esc 键返回 <code>null</code>。</p>
+</li>
+<li><p><code>confirm</code></p>
+<p>显示信息等待用户点击确定或取消。点击确定返回 <code>true</code>，点击取消或按下 Esc 键返回 <code>false</code>。</p>
+</li>
+</ul>
+<p><strong>这些方法都是模态的：它们暂停脚本的执行，并且不允许用户与该页面的其余部分进行交互，直到窗口被解除。</strong></p>
+<p>上述所有方法共有两个限制：</p>
+<ol>
+<li><strong>模态窗口的确切位置由浏览器决定。通常在页面中心。</strong></li>
+<li><strong>窗口的确切外观也取决于浏览器。我们不能修改它。</strong></li>
+</ol>
+<p>这就是简单的代价。还有其他一些方式可以显示更漂亮的窗口，并与用户进行更丰富的交互，但如果“花里胡哨”不是非常重要，那使用本节讲的这些方法也挺好。</p>
+
     </div>
 
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-      <div class="post-meta-container">
-        <time itemprop="dateCreated"
-              datetime="2023-08-30T19:30:00+00:00"
-              content="2023-08-30">
-          08-30
-        </time>
-      </div>
+    
+    
+    
 
-      <div class="post-title">
-        <a class="post-title-link" href="/archives/kotlin_learn_01/" itemprop="url">
-          <span itemprop="name">Kotlin学习</span>
-        </a>
-      </div>
+    <footer class="post-footer">
+          
 
-      
-    </header>
+<div class="post-copyright">
+<ul>
+  <li class="post-copyright-author">
+      <strong>本文作者： </strong>XiaoHei
+  </li>
+  <li class="post-copyright-link">
+      <strong>本文链接：</strong>
+      <a href="https://xiaoheiit6.github.io/archives/js_learn_03/" title="JavaScript学习——JavaScript(交互)">https://xiaoheiit6.github.io/archives/js_learn_03/</a>
+  </li>
+  <li class="post-copyright-license">
+      <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" rel="noopener" target="_blank"><i class="fab fa-fw fa-creative-commons"></i>BY-NC-SA</a> 许可协议。转载请注明出处！
+  </li>
+</ul>
+</div>
+
+          <div class="post-tags">
+              <a href="/tags/%E5%89%8D%E7%AB%AF/" rel="tag"><i class="fa fa-tag"></i> 前端</a>
+          </div>
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/archives/js_learn_02/" rel="prev" title="JavaScript学习——JavaScript(数据类型)">
+                  <i class="fa fa-angle-left"></i> JavaScript学习——JavaScript(数据类型)
+                </a>
+            </div>
+            <div class="post-nav-item">
+            </div>
+          </div>
+    </footer>
   </article>
+</div>
 
-    </div>
-  </div>
-  
-  
-  
+
+
+
+
 
 </div>
   </main>
