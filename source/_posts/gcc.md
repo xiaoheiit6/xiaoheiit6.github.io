@@ -7,7 +7,7 @@ tags:
 - Linux
 ---
 
-一次前端JS的学习记录。
+Linux gcc的使用备忘
 
 <!-- more -->
 # GCC基础使用
